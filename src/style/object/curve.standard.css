@@ -1,0 +1,8 @@
+.animation-standard {
+  animation-duration: 300ms;
+  animation-name: move_eye;
+  animation-timing-function: cubic-bezier(.4,-0.05,.29,.85);
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
+        @keyframes move_eye { from { margin-left: -20%; } to { margin-left: 100%; }  }
