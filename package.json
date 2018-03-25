@@ -19,7 +19,6 @@
     "webpack-merge": "^4.1.2"
   },
   "files": [
-    "dist",
     "src"
   ],
   "homepage": "https://github.com/santiag8/mm-animation#readme",
@@ -28,7 +27,7 @@
     "animations"
   ],
   "license": "ISC",
-  "main": "dist/bundle.js",
+  "main": "src/animations.js",
   "name": "mm-animations",
   "repository": {
     "type": "git",
