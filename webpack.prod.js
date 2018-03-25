@@ -19,7 +19,6 @@ module.exports = merge(common, {
       },
     ],
   },
-  // TODO: limpiar carpeta
   plugins: [
     new CleanWebpackPlugin(['dist']),
     new ExtractTextPlugin('./[name].css'),

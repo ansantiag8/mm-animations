@@ -5,6 +5,7 @@
   },
   "description": "Animations for MyMaterial",
   "devDependencies": {
+    "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "postcss-cssnext": "^3.1.0",
@@ -17,9 +18,15 @@
     "webpack-dev-server": "^3.1.1",
     "webpack-merge": "^4.1.2"
   },
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "homepage": "https://github.com/santiag8/mm-animation#readme",
-  "keywords": [ "Material", "animations" ],
+  "keywords": [
+    "Material",
+    "animations"
+  ],
   "license": "ISC",
   "main": "dist/bundle.js",
   "name": "mm-animations",
@@ -30,6 +37,7 @@
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.js",
     "prod": "webpack --config webpack.prod.js",
-    "test": "echo 'Error: no test specified' && exit 1" },
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
   "version": "0.0.1"
 }
