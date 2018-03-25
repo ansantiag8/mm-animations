@@ -17,7 +17,6 @@
     "webpack-dev-server": "^3.1.1",
     "webpack-merge": "^4.1.2"
   },
-  "files": ["dist/"],
   "homepage": "https://github.com/santiag8/mm-animation#readme",
   "keywords": [ "Material", "animations" ],
   "license": "ISC",
