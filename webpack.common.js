@@ -2,10 +2,10 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    app: './src/animations.js',
+    app: './src/mm-animations.js',
   },
   output: {
-    filename: 'bundle.js',
+    filename: 'mm-animations.js',
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/dist/',
   },

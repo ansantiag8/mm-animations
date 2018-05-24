@@ -9,8 +9,9 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
     <style>
+      /* debe colocarse en el archivo mm-animations.css */
       .prueba {
-        @apply --animation-standard;
+        @apply --mm-animation-standard-desktop;
 
         background-color: red;
         border-radius: 50%;
@@ -20,9 +21,8 @@
     </style>
   </head>
   <body>
-
     <div class="prueba"></div>
 
-    <script src="./dist/bundle.js"></script>
+    <script src="./dist/mm-animations.js"></script>
   </body>
 </html>
