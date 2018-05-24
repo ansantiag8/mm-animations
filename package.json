@@ -27,7 +27,7 @@
     "animations"
   ],
   "license": "ISC",
-  "main": "src/animations.js",
+  "main": "src/mm-animations.js",
   "name": "mm-animations",
   "repository": {
     "type": "git",
