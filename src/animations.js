@@ -1,1 +1,0 @@
-import './style/animations.css';
