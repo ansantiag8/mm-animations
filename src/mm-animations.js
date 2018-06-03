@@ -1,1 +1,1 @@
-import './style/mm-animations.css';
+import './styles/mm-animations.css';
